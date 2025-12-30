@@ -31,3 +31,5 @@ dist/
 
 # --- FastAPI / misc ---
 *.sqlite3
+
+.env
