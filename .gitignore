@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual env ---
+venv/
+.env/
+.venv/
+env/
+
+# --- Logs & caches ---
+*.log
+logs/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+
+# --- Build / packaging ---
+build/
+dist/
+*.egg-info/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- FastAPI / misc ---
+*.sqlite3
